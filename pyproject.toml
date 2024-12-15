@@ -29,7 +29,7 @@ exclude = [
 ]
 version = "0.0.0"
 description = "Monitor, kill, and analyze Postgres queries."
-authors = ["Opus 10 Engineering"]
+authors = ["Ambition Engineering"]
 classifiers = [
   "Intended Audience :: Developers",
   "Operating System :: OS Independent",
@@ -47,8 +47,8 @@ classifiers = [
 ]
 license = "BSD-3-Clause"
 readme = "README.md"
-homepage = "https://github.com/Opus10/django-pgactivity"
-repository = "https://github.com/Opus10/django-pgactivity"
+homepage = "https://github.com/AmbitionEng/django-pgactivity"
+repository = "https://github.com/AmbitionEng/django-pgactivity"
 documentation = "https://django-pgactivity.readthedocs.io"
 
 [tool.poetry.dependencies]

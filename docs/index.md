@@ -1,6 +1,6 @@
 # django-pgactivity
 
-Welcome to the docs for `django-pgactivity`! It doesn't appear that the author has created any docs for their project yet. Try viewing the [README](https://github.com/Opus10/django-pgactivity) of their project for documentation.
+Welcome to the docs for `django-pgactivity`! It doesn't appear that the author has created any docs for their project yet. Try viewing the [README](https://github.com/AmbitionEng/django-pgactivity) of their project for documentation.
 
 ## Compatibility
 
