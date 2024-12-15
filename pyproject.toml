@@ -27,7 +27,7 @@ packages = [
 exclude = [
   "*/tests/"
 ]
-version = "1.7.0"
+version = "1.7.1"
 description = "Monitor, kill, and analyze Postgres queries."
 authors = ["Wes Kendall"]
 classifiers = [
