@@ -27,7 +27,7 @@ packages = [
 exclude = [
   "*/tests/"
 ]
-version = "1.7.0"
+version = "1.7.1"
 description = "Monitor, kill, and analyze Postgres queries."
 authors = ["Wes Kendall"]
 classifiers = [
@@ -47,8 +47,8 @@ classifiers = [
 ]
 license = "BSD-3-Clause"
 readme = "README.md"
-homepage = "https://github.com/Opus10/django-pgactivity"
-repository = "https://github.com/Opus10/django-pgactivity"
+homepage = "https://github.com/AmbitionEng/django-pgactivity"
+repository = "https://github.com/AmbitionEng/django-pgactivity"
 documentation = "https://django-pgactivity.readthedocs.io"
 
 [tool.poetry.dependencies]

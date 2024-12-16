@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.7.1 (2024-12-15)
+
+#### Changes
+
+  - Changed project ownership to `AmbitionEng` by [@wesleykendall](https://github.com/wesleykendall) in [#14](https://github.com/AmbitionEng/django-pgactivity/pull/14).
+
 ## 1.7.0 (2024-11-01)
 
 #### Changes

@@ -58,7 +58,6 @@ import pgactivity
 def my_operation():
     # Any queries in this operation that take over 500 milliseconds will throw
     # django.db.utils.OperationalError.
-```
 
 ## Compatibility
 
