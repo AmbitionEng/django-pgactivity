@@ -5,6 +5,7 @@ build-backend = "poetry.core.masonry.api"
 [tool.coverage.run]
 branch = true
 source = ["pgactivity"]
+patch = ["subprocess"]
 
 [tool.coverage.report]
 exclude_lines = [
