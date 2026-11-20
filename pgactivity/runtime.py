@@ -13,8 +13,12 @@ def _inject_context(execute, sql, params, many, context):
     # Metadata is stored as a serialized JSON string and added as
     # a top-level comment to the SQL. This comment can be parsed
     # by the `PGActivity` model.
-    metadata_str = json.dumps(_context.value, cls=config.json_encoder())
-    sql = f"/*pga_context={metadata_str.replace('*', '-')}*/\n" + sql
+    metadata_str = json.dumps(_context.value, cls=config.json_encoder()).replace("*", "-")
+    if params is not None:
+        # The driver parses placeholders only when params are passed,
+        # so a literal "%" must be escaped only in that case.
+        metadata_str = metadata_str.replace("%", "%%")
+    sql = f"/*pga_context={metadata_str}*/\n" + sql
     return execute(sql, params, many, context)
 
 
